@@ -1,0 +1,169 @@
+{
+  "capacity": [
+    {
+      "C_uF": 80,
+      "VH_V": 2.55,
+      "usable_uJ": 80.07999999999998,
+      "task_feasible": false
+    },
+    {
+      "C_uF": 80,
+      "VH_V": 2.8,
+      "usable_uJ": 122.87999999999997,
+      "task_feasible": true
+    },
+    {
+      "C_uF": 90,
+      "VH_V": 2.55,
+      "usable_uJ": 90.08999999999999,
+      "task_feasible": false
+    },
+    {
+      "C_uF": 90,
+      "VH_V": 2.8,
+      "usable_uJ": 138.23999999999998,
+      "task_feasible": true
+    },
+    {
+      "C_uF": 99,
+      "VH_V": 2.55,
+      "usable_uJ": 99.09899999999998,
+      "task_feasible": false
+    },
+    {
+      "C_uF": 99,
+      "VH_V": 2.8,
+      "usable_uJ": 152.06399999999996,
+      "task_feasible": true
+    },
+    {
+      "C_uF": 100,
+      "VH_V": 2.55,
+      "usable_uJ": 100.09999999999997,
+      "task_feasible": true
+    },
+    {
+      "C_uF": 100,
+      "VH_V": 2.8,
+      "usable_uJ": 153.59999999999994,
+      "task_feasible": true
+    },
+    {
+      "C_uF": 110,
+      "VH_V": 2.55,
+      "usable_uJ": 110.10999999999997,
+      "task_feasible": true
+    },
+    {
+      "C_uF": 110,
+      "VH_V": 2.8,
+      "usable_uJ": 168.95999999999995,
+      "task_feasible": true
+    },
+    {
+      "C_uF": 120,
+      "VH_V": 2.55,
+      "usable_uJ": 120.11999999999998,
+      "task_feasible": true
+    },
+    {
+      "C_uF": 120,
+      "VH_V": 2.8,
+      "usable_uJ": 184.31999999999994,
+      "task_feasible": true
+    }
+  ],
+  "service": [
+    {
+      "C_uF": 80,
+      "VH_V": 2.8,
+      "period_s": null,
+      "tasks_h": 24.833333333333332,
+      "max_gap_s": 144.87061685294702,
+      "source_J": 0.08640000000000017,
+      "residual_J": -3.469446951953614e-17
+    },
+    {
+      "C_uF": 80,
+      "VH_V": 2.8,
+      "period_s": 1200,
+      "tasks_h": 36.0,
+      "max_gap_s": 720.8081539333771,
+      "source_J": 0.0863999999999999,
+      "residual_J": -1.942890293094024e-16
+    },
+    {
+      "C_uF": 90,
+      "VH_V": 2.8,
+      "period_s": null,
+      "tasks_h": 24.333333333333332,
+      "max_gap_s": 147.52505299410768,
+      "source_J": 0.08639999999999978,
+      "residual_J": 6.938893903907228e-18
+    },
+    {
+      "C_uF": 90,
+      "VH_V": 2.8,
+      "period_s": 1200,
+      "tasks_h": 36.0,
+      "max_gap_s": 717.9895374151347,
+      "source_J": 0.08640000000000081,
+      "residual_J": 9.020562075079397e-17
+    },
+    {
+      "C_uF": 100,
+      "VH_V": 2.8,
+      "period_s": null,
+      "tasks_h": 24.0,
+      "max_gap_s": 149.74183362593703,
+      "source_J": 0.0864000000000001,
+      "residual_J": 0.0
+    },
+    {
+      "C_uF": 100,
+      "VH_V": 2.8,
+      "period_s": 1200,
+      "tasks_h": 33.0,
+      "max_gap_s": 759.7298299035538,
+      "source_J": 0.08640000000000089,
+      "residual_J": 1.0408340855860843e-16
+    },
+    {
+      "C_uF": 110,
+      "VH_V": 2.8,
+      "period_s": null,
+      "tasks_h": 23.666666666666668,
+      "max_gap_s": 151.6214074304953,
+      "source_J": 0.08639999999999957,
+      "residual_J": -1.5959455978986625e-16
+    },
+    {
+      "C_uF": 110,
+      "VH_V": 2.8,
+      "period_s": 1200,
+      "tasks_h": 33.0,
+      "max_gap_s": 758.0094120669128,
+      "source_J": 0.0863999999999997,
+      "residual_J": -3.469446951953614e-17
+    },
+    {
+      "C_uF": 120,
+      "VH_V": 2.8,
+      "period_s": null,
+      "tasks_h": 23.5,
+      "max_gap_s": 153.2355539922155,
+      "source_J": 0.08640000000000005,
+      "residual_J": 3.469446951953614e-17
+    },
+    {
+      "C_uF": 120,
+      "VH_V": 2.8,
+      "period_s": 1200,
+      "tasks_h": 33.0,
+      "max_gap_s": 756.5620513098838,
+      "source_J": 0.08639999999999999,
+      "residual_J": 3.469446951953614e-17
+    }
+  ],
+  "assumptions": "Effective capacitance varied alone; R=10 Mohm, efficiencies fixed, zero restart cost, continuous standby, 1 h warm-up and 6 h observation. The 80-120 uF interval is assumed, not a measured distribution."
+}

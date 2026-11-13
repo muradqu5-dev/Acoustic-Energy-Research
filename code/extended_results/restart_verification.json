@@ -1,0 +1,82 @@
+[
+  {
+    "policy": "continuous",
+    "period_s": null,
+    "boot_uJ": 100,
+    "exact_tasks": 29,
+    "rk4_tasks": 29,
+    "exact_restarts": 0,
+    "rk4_restarts": 0,
+    "max_event_error_s": 0.3954355562927958
+  },
+  {
+    "policy": "continuous",
+    "period_s": 300,
+    "boot_uJ": 100,
+    "exact_tasks": 39,
+    "rk4_tasks": 39,
+    "exact_restarts": 0,
+    "rk4_restarts": 0,
+    "max_event_error_s": 0.05514798360286477
+  },
+  {
+    "policy": "continuous",
+    "period_s": 1200,
+    "boot_uJ": 100,
+    "exact_tasks": 50,
+    "rk4_tasks": 50,
+    "exact_restarts": 5,
+    "rk4_restarts": 5,
+    "max_event_error_s": 0.062291703300616064
+  },
+  {
+    "policy": "continuous",
+    "period_s": 3600,
+    "boot_uJ": 100,
+    "exact_tasks": 66,
+    "rk4_tasks": 66,
+    "exact_restarts": 1,
+    "rk4_restarts": 1,
+    "max_event_error_s": 0.13365550793628245
+  },
+  {
+    "policy": "gated",
+    "period_s": null,
+    "boot_uJ": 100,
+    "exact_tasks": 29,
+    "rk4_tasks": 29,
+    "exact_restarts": 0,
+    "rk4_restarts": 0,
+    "max_event_error_s": 0.3954355562927958
+  },
+  {
+    "policy": "gated",
+    "period_s": 300,
+    "boot_uJ": 100,
+    "exact_tasks": 39,
+    "rk4_tasks": 39,
+    "exact_restarts": 0,
+    "rk4_restarts": 0,
+    "max_event_error_s": 0.05514798360286477
+  },
+  {
+    "policy": "gated",
+    "period_s": 1200,
+    "boot_uJ": 100,
+    "exact_tasks": 55,
+    "rk4_tasks": 55,
+    "exact_restarts": 5,
+    "rk4_restarts": 5,
+    "max_event_error_s": 0.07556313371787837
+  },
+  {
+    "policy": "gated",
+    "period_s": 3600,
+    "boot_uJ": 100,
+    "exact_tasks": 67,
+    "rk4_tasks": 67,
+    "exact_restarts": 1,
+    "rk4_restarts": 1,
+    "max_event_error_s": 0.13365550793628245
+  }
+]

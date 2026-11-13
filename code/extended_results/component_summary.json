@@ -1,0 +1,71 @@
+{
+  "typical_task_uJ": 6.90525,
+  "specified_limit_task_uJ": 12.705000000000002,
+  "resistance_stress_Mohm": 5.0,
+  "nominal_C_uF": 100,
+  "capacitance_sensitivity_uF": [
+    50,
+    80,
+    100,
+    120
+  ],
+  "available_load_energy_uJ": [
+    137.79999999999995,
+    220.47999999999996,
+    275.5999999999999,
+    330.71999999999997
+  ],
+  "sensor_power_active_typ_uW": 445.5,
+  "sensor_power_active_limit_uW": 726.0,
+  "neglected_incoming_per_active_window_typ_uJ": 0.062,
+  "rows": [
+    {
+      "case": "Typical",
+      "input_uW": 4.0,
+      "task_load_uJ": 6.90525,
+      "task_storage_uJ": 8.6315625,
+      "standby_storage_uW": 0.8687499999999999,
+      "leakage_at_high_uW": 2.178,
+      "required_source_uW": 6.0935,
+      "remaining_power_at_high_uW": -1.0467499999999998,
+      "refill_s": null,
+      "energy_capacity_uJ": 275.59999999999997
+    },
+    {
+      "case": "Typical",
+      "input_uW": 8.0,
+      "task_load_uJ": 6.90525,
+      "task_storage_uJ": 8.6315625,
+      "standby_storage_uW": 0.8687499999999999,
+      "leakage_at_high_uW": 2.178,
+      "required_source_uW": 6.0935,
+      "remaining_power_at_high_uW": 0.9532500000000002,
+      "refill_s": 8.894751437799313,
+      "energy_capacity_uJ": 275.59999999999997
+    },
+    {
+      "case": "Specified-limit",
+      "input_uW": 4.0,
+      "task_load_uJ": 12.705000000000002,
+      "task_storage_uJ": 15.88125,
+      "standby_storage_uW": 2.3125,
+      "leakage_at_high_uW": 2.178,
+      "required_source_uW": 8.981,
+      "remaining_power_at_high_uW": -2.4904999999999995,
+      "refill_s": null,
+      "energy_capacity_uJ": 275.59999999999997
+    },
+    {
+      "case": "Specified-limit",
+      "input_uW": 8.0,
+      "task_load_uJ": 12.705000000000002,
+      "task_storage_uJ": 15.88125,
+      "standby_storage_uW": 2.3125,
+      "leakage_at_high_uW": 2.178,
+      "required_source_uW": 8.981,
+      "remaining_power_at_high_uW": -0.49049999999999977,
+      "refill_s": null,
+      "energy_capacity_uJ": 275.59999999999997
+    }
+  ]
+}

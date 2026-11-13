@@ -1,0 +1,25 @@
+{
+  "source": "Duan et al. (2023), DOI 10.1002/aelm.202300348, Figure 5(c)",
+  "url": "https://eprints.gla.ac.uk/302236/2/302236.pdf",
+  "source_pdf_page": 7,
+  "embedded_image": "Im6.jpg",
+  "image_size": [
+    2050,
+    1148
+  ],
+  "image_sha256": "9e4f0c927cdd342a411a23335b2a5210b33c2493082ba9072f1da9b4367c7b39",
+  "axis_pixels": {
+    "t0": 1545.0,
+    "t1000": 2014.0,
+    "V0": 433.5,
+    "V2_5": 47.5
+  },
+  "digitization_tolerance_V": 0.02,
+  "digitization_tolerance_s": 5,
+  "reported_conditions": {
+    "capacitance_F": 0.001,
+    "sound_frequency_Hz": 200,
+    "sound_level_dB": 100
+  },
+  "method": "Median red-line height in three columns; 18 readings spaced 50 s; no raw observations or replicates supplied."
+}

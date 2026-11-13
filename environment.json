@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "Pillow": "13.0.0"
+  },
+  "note": "Versions observed for the scientific analysis. requirements.txt lists direct dependencies; other versions have not been tested. PDF typesetting is not included in this compact package."
+}

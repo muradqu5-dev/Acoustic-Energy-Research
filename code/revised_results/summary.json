@@ -1,0 +1,27 @@
+{
+  "baseline": {
+    "source_power_uW": 4,
+    "capacitance_uF": 100,
+    "efficiency_in": 0.5,
+    "efficiency_out": 0.8,
+    "standby_uW": 0.5,
+    "leakage_Mohm": 10,
+    "low_V": 2,
+    "high_V": 3.3,
+    "event_uJ": 100,
+    "input_after_fixed_loss_uW": 1.5,
+    "leakage_at_high_uW": 1.089,
+    "usable_energy_uJ": 275.59999999999997,
+    "energy_removed_uJ": 125.0,
+    "min_capacitance_uF": 36.2844702467344,
+    "critical_source_power_uW": 3.178,
+    "full_window_charge_s": 492.23612214511354,
+    "event_refill_s": 237.58031267772577,
+    "after_event_V": 2.8965496715920476,
+    "no_leak_event_refill_s": 83.33333333333333
+  },
+  "fixed_decay": {
+    "tau_s": 1000.0,
+    "max_capacitance_uF_exclusive": 137.74104683195594
+  }
+}

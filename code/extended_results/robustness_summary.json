@@ -1,0 +1,1176 @@
+{
+  "threshold": [
+    {
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 0,
+      "tasks_h": 15.0,
+      "max_gap_s": 237.5803126777264,
+      "task_margin_uJ": 175.6,
+      "required_C_uF": 36.2844702467344,
+      "source_J": 0.0863999999999999,
+      "residual_J": -5.551115123125783e-17
+    },
+    {
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 100,
+      "tasks_h": 15.0,
+      "max_gap_s": 237.5803126777264,
+      "task_margin_uJ": 175.6,
+      "required_C_uF": 36.2844702467344,
+      "source_J": 0.0863999999999999,
+      "residual_J": -5.551115123125783e-17
+    },
+    {
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 0,
+      "tasks_h": 27.0,
+      "max_gap_s": 805.3584288139282,
+      "task_margin_uJ": 175.6,
+      "required_C_uF": 36.2844702467344,
+      "source_J": 0.08639999999999962,
+      "residual_J": -6.938893903907228e-18
+    },
+    {
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 100,
+      "tasks_h": 24.0,
+      "max_gap_s": 854.6886252121872,
+      "task_margin_uJ": 175.6,
+      "required_C_uF": 36.2844702467344,
+      "source_J": 0.08639999999999963,
+      "residual_J": 6.938893903907228e-18
+    },
+    {
+      "VH_V": 2.8,
+      "period_s": null,
+      "boot_uJ": 0,
+      "tasks_h": 24.0,
+      "max_gap_s": 149.74183362593703,
+      "task_margin_uJ": 53.59999999999996,
+      "required_C_uF": 65.1041666666667,
+      "source_J": 0.0864000000000001,
+      "residual_J": 0.0
+    },
+    {
+      "VH_V": 2.8,
+      "period_s": null,
+      "boot_uJ": 100,
+      "tasks_h": 24.0,
+      "max_gap_s": 149.74183362593703,
+      "task_margin_uJ": 53.59999999999996,
+      "required_C_uF": 65.1041666666667,
+      "source_J": 0.0864000000000001,
+      "residual_J": 0.0
+    },
+    {
+      "VH_V": 2.8,
+      "period_s": 1200,
+      "boot_uJ": 0,
+      "tasks_h": 33.0,
+      "max_gap_s": 759.7298299035538,
+      "task_margin_uJ": 53.59999999999996,
+      "required_C_uF": 65.1041666666667,
+      "source_J": 0.08640000000000049,
+      "residual_J": -4.85722573273506e-17
+    },
+    {
+      "VH_V": 2.8,
+      "period_s": 1200,
+      "boot_uJ": 100,
+      "tasks_h": 30.0,
+      "max_gap_s": 803.7568469131984,
+      "task_margin_uJ": 53.59999999999996,
+      "required_C_uF": 65.1041666666667,
+      "source_J": 0.08640000000000046,
+      "residual_J": -4.85722573273506e-17
+    },
+    {
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 0,
+      "tasks_h": 28.0,
+      "max_gap_s": 128.9479858263021,
+      "task_margin_uJ": 0.09999999999998888,
+      "required_C_uF": 99.90009990009992,
+      "source_J": 0.08640000000000032,
+      "residual_J": 1.3877787807814457e-17
+    },
+    {
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 100,
+      "tasks_h": 28.0,
+      "max_gap_s": 128.9479858263021,
+      "task_margin_uJ": 0.09999999999998888,
+      "required_C_uF": 99.90009990009992,
+      "source_J": 0.08640000000000032,
+      "residual_J": 1.3877787807814457e-17
+    },
+    {
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 0,
+      "tasks_h": 36.0,
+      "max_gap_s": 737.5039443131609,
+      "task_margin_uJ": 0.09999999999998888,
+      "required_C_uF": 99.90009990009992,
+      "source_J": 0.08640000000000003,
+      "residual_J": 9.020562075079397e-17
+    },
+    {
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 100,
+      "tasks_h": 36.0,
+      "max_gap_s": 737.5039443131609,
+      "task_margin_uJ": 0.09999999999998888,
+      "required_C_uF": 99.90009990009992,
+      "source_J": 0.0864000000000001,
+      "residual_J": 9.71445146547012e-17
+    }
+  ],
+  "split_checks": [
+    {
+      "split_s": 200,
+      "model": "Energy",
+      "nfit": 4,
+      "ncheck": 14,
+      "A_V": 19.99999999999999,
+      "tau_s": 29448.63292148657,
+      "fit_rmse_V": 0.06995370404000611,
+      "check_rmse_V": 0.7701562962792152
+    },
+    {
+      "split_s": 200,
+      "model": "Voltage",
+      "nfit": 4,
+      "ncheck": 14,
+      "A_V": 2.0487958502975756,
+      "tau_s": 118.83943192855986,
+      "fit_rmse_V": 0.00750757641005512,
+      "check_rmse_V": 0.08942058056152569
+    },
+    {
+      "split_s": 300,
+      "model": "Energy",
+      "nfit": 6,
+      "ncheck": 12,
+      "A_V": 4.722446369309167,
+      "tau_s": 1617.9466660329865,
+      "fit_rmse_V": 0.0674777971327297,
+      "check_rmse_V": 0.5833956761311275
+    },
+    {
+      "split_s": 300,
+      "model": "Voltage",
+      "nfit": 6,
+      "ncheck": 12,
+      "A_V": 2.0501510654171127,
+      "tau_s": 119.09724210908126,
+      "fit_rmse_V": 0.007421185963556539,
+      "check_rmse_V": 0.09539287014332673
+    },
+    {
+      "split_s": 450,
+      "model": "Energy",
+      "nfit": 9,
+      "ncheck": 9,
+      "A_V": 2.6882575416274235,
+      "tau_s": 457.72643866000334,
+      "fit_rmse_V": 0.06883742271663983,
+      "check_rmse_V": 0.2315869508011463
+    },
+    {
+      "split_s": 450,
+      "model": "Voltage",
+      "nfit": 9,
+      "ncheck": 9,
+      "A_V": 2.109644175173978,
+      "tau_s": 126.61562903061433,
+      "fit_rmse_V": 0.01694320959606292,
+      "check_rmse_V": 0.05011457130495207
+    }
+  ],
+  "acoustic": {
+    "rows": [
+      {
+        "SPL_dB": 70,
+        "intensity_W_m2": 9.999999999999999e-06,
+        "area_for_4uW_cm2": [
+          4000.0,
+          40000.0,
+          400000.0
+        ],
+        "area_for_threshold_10pct_cm2": 31780.0
+      },
+      {
+        "SPL_dB": 80,
+        "intensity_W_m2": 9.999999999999999e-05,
+        "area_for_4uW_cm2": [
+          400.0,
+          4000.0,
+          40000.0
+        ],
+        "area_for_threshold_10pct_cm2": 3178.0000000000005
+      },
+      {
+        "SPL_dB": 90,
+        "intensity_W_m2": 0.001,
+        "area_for_4uW_cm2": [
+          40.0,
+          399.99999999999994,
+          3999.9999999999995
+        ],
+        "area_for_threshold_10pct_cm2": 317.79999999999995
+      },
+      {
+        "SPL_dB": 100,
+        "intensity_W_m2": 0.01,
+        "area_for_4uW_cm2": [
+          3.9999999999999996,
+          40.0,
+          399.99999999999994
+        ],
+        "area_for_threshold_10pct_cm2": 31.779999999999998
+      }
+    ],
+    "thresholds": [
+      {
+        "area_cm2": 4,
+        "efficiency": 0.01,
+        "SPL_threshold_dB": 119.00093901543399
+      },
+      {
+        "area_cm2": 4,
+        "efficiency": 0.1,
+        "SPL_threshold_dB": 109.00093901543399
+      },
+      {
+        "area_cm2": 4,
+        "efficiency": 1.0,
+        "SPL_threshold_dB": 99.00093901543399
+      },
+      {
+        "area_cm2": 20,
+        "efficiency": 0.01,
+        "SPL_threshold_dB": 112.0112389720738
+      },
+      {
+        "area_cm2": 20,
+        "efficiency": 0.1,
+        "SPL_threshold_dB": 102.0112389720738
+      },
+      {
+        "area_cm2": 20,
+        "efficiency": 1.0,
+        "SPL_threshold_dB": 92.0112389720738
+      },
+      {
+        "area_cm2": 50,
+        "efficiency": 0.01,
+        "SPL_threshold_dB": 108.03183888535342
+      },
+      {
+        "area_cm2": 50,
+        "efficiency": 0.1,
+        "SPL_threshold_dB": 98.03183888535342
+      },
+      {
+        "area_cm2": 50,
+        "efficiency": 1.0,
+        "SPL_threshold_dB": 88.03183888535342
+      }
+    ],
+    "duan_area_cm2": 52.93905634545795,
+    "duan_incident_uW": 52.93905634545795,
+    "duan_resistive_efficiency": 0.15961750328262114,
+    "duan_reported_storage_efficiency": 0.04514625240774728,
+    "duan_endpoint_power_uW": 3.3965398550724637,
+    "duan_endpoint_efficiency": 0.06415943330965473,
+    "duan_implied_area_cm2": 12.04
+  },
+  "leakage": [
+    {
+      "R_Mohm": 0.1,
+      "standby_uW": 0.86875,
+      "eta_in": 0.25,
+      "required_source_uW": 439.075,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.1,
+      "standby_uW": 0.86875,
+      "eta_in": 0.5,
+      "required_source_uW": 219.5375,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.1,
+      "standby_uW": 0.86875,
+      "eta_in": 0.75,
+      "required_source_uW": 146.35833333333332,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.1,
+      "standby_uW": 2.3125,
+      "eta_in": 0.25,
+      "required_source_uW": 444.84999999999997,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.1,
+      "standby_uW": 2.3125,
+      "eta_in": 0.5,
+      "required_source_uW": 222.42499999999998,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.1,
+      "standby_uW": 2.3125,
+      "eta_in": 0.75,
+      "required_source_uW": 148.28333333333333,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.33,
+      "standby_uW": 0.86875,
+      "eta_in": 0.25,
+      "required_source_uW": 135.47499999999997,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.33,
+      "standby_uW": 0.86875,
+      "eta_in": 0.5,
+      "required_source_uW": 67.73749999999998,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.33,
+      "standby_uW": 0.86875,
+      "eta_in": 0.75,
+      "required_source_uW": 45.158333333333324,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.33,
+      "standby_uW": 2.3125,
+      "eta_in": 0.25,
+      "required_source_uW": 141.25,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.33,
+      "standby_uW": 2.3125,
+      "eta_in": 0.5,
+      "required_source_uW": 70.625,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.33,
+      "standby_uW": 2.3125,
+      "eta_in": 0.75,
+      "required_source_uW": 47.08333333333333,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.55,
+      "standby_uW": 0.86875,
+      "eta_in": 0.25,
+      "required_source_uW": 82.675,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.55,
+      "standby_uW": 0.86875,
+      "eta_in": 0.5,
+      "required_source_uW": 41.3375,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.55,
+      "standby_uW": 0.86875,
+      "eta_in": 0.75,
+      "required_source_uW": 27.55833333333333,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.55,
+      "standby_uW": 2.3125,
+      "eta_in": 0.25,
+      "required_source_uW": 88.44999999999999,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.55,
+      "standby_uW": 2.3125,
+      "eta_in": 0.5,
+      "required_source_uW": 44.224999999999994,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 0.55,
+      "standby_uW": 2.3125,
+      "eta_in": 0.75,
+      "required_source_uW": 29.483333333333327,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 1,
+      "standby_uW": 0.86875,
+      "eta_in": 0.25,
+      "required_source_uW": 47.035,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 1,
+      "standby_uW": 0.86875,
+      "eta_in": 0.5,
+      "required_source_uW": 23.5175,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 1,
+      "standby_uW": 0.86875,
+      "eta_in": 0.75,
+      "required_source_uW": 15.678333333333333,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 1,
+      "standby_uW": 2.3125,
+      "eta_in": 0.25,
+      "required_source_uW": 52.809999999999995,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 1,
+      "standby_uW": 2.3125,
+      "eta_in": 0.5,
+      "required_source_uW": 26.404999999999998,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 1,
+      "standby_uW": 2.3125,
+      "eta_in": 0.75,
+      "required_source_uW": 17.60333333333333,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 5,
+      "standby_uW": 0.86875,
+      "eta_in": 0.25,
+      "required_source_uW": 12.187,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 5,
+      "standby_uW": 0.86875,
+      "eta_in": 0.5,
+      "required_source_uW": 6.0935,
+      "refill_at_8uW_s": 8.894751437799313
+    },
+    {
+      "R_Mohm": 5,
+      "standby_uW": 0.86875,
+      "eta_in": 0.75,
+      "required_source_uW": 4.062333333333332,
+      "refill_at_8uW_s": 2.905780688856137
+    },
+    {
+      "R_Mohm": 5,
+      "standby_uW": 2.3125,
+      "eta_in": 0.25,
+      "required_source_uW": 17.962,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 5,
+      "standby_uW": 2.3125,
+      "eta_in": 0.5,
+      "required_source_uW": 8.981,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 5,
+      "standby_uW": 2.3125,
+      "eta_in": 0.75,
+      "required_source_uW": 5.987333333333333,
+      "refill_at_8uW_s": 10.305511745700032
+    },
+    {
+      "R_Mohm": 10,
+      "standby_uW": 0.86875,
+      "eta_in": 0.25,
+      "required_source_uW": 7.831,
+      "refill_at_8uW_s": 171.29626132884522
+    },
+    {
+      "R_Mohm": 10,
+      "standby_uW": 0.86875,
+      "eta_in": 0.5,
+      "required_source_uW": 3.9155,
+      "refill_at_8uW_s": 4.208733269947569
+    },
+    {
+      "R_Mohm": 10,
+      "standby_uW": 0.86875,
+      "eta_in": 0.75,
+      "required_source_uW": 2.610333333333333,
+      "refill_at_8uW_s": 2.1307894170716453
+    },
+    {
+      "R_Mohm": 10,
+      "standby_uW": 2.3125,
+      "eta_in": 0.25,
+      "required_source_uW": 13.605999999999998,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 10,
+      "standby_uW": 2.3125,
+      "eta_in": 0.5,
+      "required_source_uW": 6.802999999999999,
+      "refill_at_8uW_s": 25.85493713638335
+    },
+    {
+      "R_Mohm": 10,
+      "standby_uW": 2.3125,
+      "eta_in": 0.75,
+      "required_source_uW": 4.535333333333333,
+      "refill_at_8uW_s": 6.074647814284989
+    },
+    {
+      "R_Mohm": 50,
+      "standby_uW": 0.86875,
+      "eta_in": 0.25,
+      "required_source_uW": 4.3462,
+      "refill_at_8uW_s": 9.431595442004385
+    },
+    {
+      "R_Mohm": 50,
+      "standby_uW": 0.86875,
+      "eta_in": 0.5,
+      "required_source_uW": 2.1731,
+      "refill_at_8uW_s": 2.960906162675948
+    },
+    {
+      "R_Mohm": 50,
+      "standby_uW": 0.86875,
+      "eta_in": 0.75,
+      "required_source_uW": 1.4487333333333334,
+      "refill_at_8uW_s": 1.7561044215173827
+    },
+    {
+      "R_Mohm": 50,
+      "standby_uW": 2.3125,
+      "eta_in": 0.25,
+      "required_source_uW": 10.121199999999998,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 50,
+      "standby_uW": 2.3125,
+      "eta_in": 0.5,
+      "required_source_uW": 5.060599999999999,
+      "refill_at_8uW_s": 10.782490802261016
+    },
+    {
+      "R_Mohm": 50,
+      "standby_uW": 2.3125,
+      "eta_in": 0.75,
+      "required_source_uW": 3.373733333333333,
+      "refill_at_8uW_s": 4.572939916321244
+    },
+    {
+      "R_Mohm": 100,
+      "standby_uW": 0.86875,
+      "eta_in": 0.25,
+      "required_source_uW": 3.9105999999999996,
+      "refill_at_8uW_s": 8.435744297006439
+    },
+    {
+      "R_Mohm": 100,
+      "standby_uW": 0.86875,
+      "eta_in": 0.5,
+      "required_source_uW": 1.9552999999999998,
+      "refill_at_8uW_s": 2.8550956510267027
+    },
+    {
+      "R_Mohm": 100,
+      "standby_uW": 0.86875,
+      "eta_in": 0.75,
+      "required_source_uW": 1.303533333333333,
+      "refill_at_8uW_s": 1.7183349215858976
+    },
+    {
+      "R_Mohm": 100,
+      "standby_uW": 2.3125,
+      "eta_in": 0.25,
+      "required_source_uW": 9.685599999999999,
+      "refill_at_8uW_s": null
+    },
+    {
+      "R_Mohm": 100,
+      "standby_uW": 2.3125,
+      "eta_in": 0.5,
+      "required_source_uW": 4.8427999999999995,
+      "refill_at_8uW_s": 10.050230789492256
+    },
+    {
+      "R_Mohm": 100,
+      "standby_uW": 2.3125,
+      "eta_in": 0.75,
+      "required_source_uW": 3.228533333333333,
+      "refill_at_8uW_s": 4.435870542877791
+    }
+  ],
+  "voltage_source": [
+    {
+      "voc_V": 3.6,
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 0.0,
+      "tasks": 80,
+      "tasks_h": 13.333333333333334,
+      "max_gap_s": 269.1975110026069,
+      "source_J": 0.08639999999232471,
+      "leakage_J": 0.022349549201883943,
+      "standby_J": 0.010800000000000006,
+      "task_J": 0.010000000000000007,
+      "restart_J": 0.0,
+      "residual_J": -1.0940554018290527e-13,
+      "source_R_Mohm": 0.30679739284231405,
+      "pref_uW": 7.30123544808382
+    },
+    {
+      "voc_V": 3.6,
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 100.0,
+      "tasks": 80,
+      "tasks_h": 13.333333333333334,
+      "max_gap_s": 269.1975110026069,
+      "source_J": 0.08639999999232471,
+      "leakage_J": 0.022349549201883943,
+      "standby_J": 0.010800000000000006,
+      "task_J": 0.010000000000000007,
+      "restart_J": 0.0,
+      "residual_J": -1.0940554018290527e-13,
+      "source_R_Mohm": 0.30679739284231405,
+      "pref_uW": 7.30123544808382
+    },
+    {
+      "voc_V": 3.6,
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 0.0,
+      "tasks": 171,
+      "tasks_h": 28.5,
+      "max_gap_s": 746.3079667264319,
+      "source_J": 0.08639999999998439,
+      "leakage_J": 0.015074947421248942,
+      "standby_J": 0.006750052414855736,
+      "task_J": 0.021375000000000016,
+      "restart_J": 0.0,
+      "residual_J": -4.850772561404426e-13,
+      "source_R_Mohm": 0.38100771808467165,
+      "pref_uW": 5.879145995415778
+    },
+    {
+      "voc_V": 3.6,
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 100.0,
+      "tasks": 162,
+      "tasks_h": 27.0,
+      "max_gap_s": 748.1993636871925,
+      "source_J": 0.08640000000034255,
+      "leakage_J": 0.014660142831745068,
+      "standby_J": 0.006489905696747315,
+      "task_J": 0.020250000000000015,
+      "restart_J": 0.0018000000000000006,
+      "residual_J": -3.805300258924449e-13,
+      "source_R_Mohm": 0.3810837140011356,
+      "pref_uW": 5.877973573001668
+    },
+    {
+      "voc_V": 5.0,
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 0.0,
+      "tasks": 89,
+      "tasks_h": 14.833333333333334,
+      "max_gap_s": 240.78091085699452,
+      "source_J": 0.08640000000031817,
+      "leakage_J": 0.021178306273095308,
+      "standby_J": 0.01080000000000002,
+      "task_J": 0.011125000000000008,
+      "restart_J": 0.0,
+      "residual_J": 3.157196726277789e-16,
+      "source_R_Mohm": 1.4602117001750716,
+      "pref_uW": 4.218566389559438
+    },
+    {
+      "voc_V": 5.0,
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 100.0,
+      "tasks": 89,
+      "tasks_h": 14.833333333333334,
+      "max_gap_s": 240.78091085699452,
+      "source_J": 0.08640000000031817,
+      "leakage_J": 0.021178306273095308,
+      "standby_J": 0.01080000000000002,
+      "task_J": 0.011125000000000008,
+      "restart_J": 0.0,
+      "residual_J": 3.157196726277789e-16,
+      "source_R_Mohm": 1.4602117001750716,
+      "pref_uW": 4.218566389559438
+    },
+    {
+      "voc_V": 5.0,
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 0.0,
+      "tasks": 180,
+      "tasks_h": 30.0,
+      "max_gap_s": 752.6411262427033,
+      "source_J": 0.08639999999998144,
+      "leakage_J": 0.014347935490070754,
+      "standby_J": 0.006352106769506587,
+      "task_J": 0.022500000000000017,
+      "restart_J": 0.0,
+      "residual_J": -1.265688942542198e-13,
+      "source_R_Mohm": 1.4720353909218278,
+      "pref_uW": 4.184681997450104
+    },
+    {
+      "voc_V": 5.0,
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 100.0,
+      "tasks": 162,
+      "tasks_h": 27.0,
+      "max_gap_s": 802.497818149481,
+      "source_J": 0.08639999999999898,
+      "leakage_J": 0.014628713720385886,
+      "standby_J": 0.006521289545839136,
+      "task_J": 0.020250000000000015,
+      "restart_J": 0.0018000000000000006,
+      "residual_J": -4.425041062738888e-14,
+      "source_R_Mohm": 1.4716632883913798,
+      "pref_uW": 4.185740072875817
+    },
+    {
+      "voc_V": 10.0,
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 0.0,
+      "tasks": 92,
+      "tasks_h": 15.333333333333334,
+      "max_gap_s": 235.03963026502424,
+      "source_J": 0.08640000000000121,
+      "leakage_J": 0.020911954376058656,
+      "standby_J": 0.010800000000000034,
+      "task_J": 0.011500000000000008,
+      "restart_J": 0.0,
+      "residual_J": 1.491862189340054e-16,
+      "source_R_Mohm": 5.352947792039634,
+      "pref_uW": 3.766149191662195
+    },
+    {
+      "voc_V": 10.0,
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 100.0,
+      "tasks": 92,
+      "tasks_h": 15.333333333333334,
+      "max_gap_s": 235.03963026502424,
+      "source_J": 0.08640000000000121,
+      "leakage_J": 0.020911954376058656,
+      "standby_J": 0.010800000000000034,
+      "task_J": 0.011500000000000008,
+      "restart_J": 0.0,
+      "residual_J": 1.491862189340054e-16,
+      "source_R_Mohm": 5.352947792039634,
+      "pref_uW": 3.766149191662195
+    },
+    {
+      "voc_V": 10.0,
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 0.0,
+      "tasks": 180,
+      "tasks_h": 30.0,
+      "max_gap_s": 783.5822315938167,
+      "source_J": 0.08639999999999964,
+      "leakage_J": 0.014359185853868469,
+      "standby_J": 0.006340524978610355,
+      "task_J": 0.022500000000000017,
+      "restart_J": 0.0,
+      "residual_J": 2.13123615977473e-12,
+      "source_R_Mohm": 5.133968788024531,
+      "pref_uW": 3.9267866308469013
+    },
+    {
+      "voc_V": 10.0,
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 100.0,
+      "tasks": 162,
+      "tasks_h": 27.0,
+      "max_gap_s": 828.7973794890859,
+      "source_J": 0.08639999999531539,
+      "leakage_J": 0.014650363936589613,
+      "standby_J": 0.006499239068692638,
+      "task_J": 0.020250000000000015,
+      "restart_J": 0.0018000000000000006,
+      "residual_J": 1.8587412425191685e-12,
+      "source_R_Mohm": 5.143437513627813,
+      "pref_uW": 3.9195576784174007
+    },
+    {
+      "voc_V": 3.6,
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 0.0,
+      "tasks": 166,
+      "tasks_h": 27.666666666666668,
+      "max_gap_s": 130.01095482456458,
+      "source_J": 0.08640000000003008,
+      "leakage_J": 0.011635479141675053,
+      "standby_J": 0.01080000000000001,
+      "task_J": 0.020750000000000015,
+      "restart_J": 0.0,
+      "residual_J": 3.8514677558332266e-13,
+      "source_R_Mohm": 0.7373257059957204,
+      "pref_uW": 3.038006110169448
+    },
+    {
+      "voc_V": 3.6,
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 100.0,
+      "tasks": 166,
+      "tasks_h": 27.666666666666668,
+      "max_gap_s": 130.01095482456458,
+      "source_J": 0.08640000000003008,
+      "leakage_J": 0.011635479141675053,
+      "standby_J": 0.01080000000000001,
+      "task_J": 0.020750000000000015,
+      "restart_J": 0.0,
+      "residual_J": 3.8514677558332266e-13,
+      "source_R_Mohm": 0.7373257059957204,
+      "pref_uW": 3.038006110169448
+    },
+    {
+      "voc_V": 3.6,
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 0.0,
+      "tasks": 234,
+      "tasks_h": 39.0,
+      "max_gap_s": 691.0708618180506,
+      "source_J": 0.08640000000253767,
+      "leakage_J": 0.008522231480075745,
+      "standby_J": 0.005427692354784868,
+      "task_J": 0.029250000000000023,
+      "restart_J": 0.0,
+      "residual_J": 1.361650375786283e-12,
+      "source_R_Mohm": 0.7447306768057452,
+      "pref_uW": 3.007798751634183
+    },
+    {
+      "voc_V": 3.6,
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 100.0,
+      "tasks": 216,
+      "tasks_h": 36.0,
+      "max_gap_s": 734.2041715517771,
+      "source_J": 0.08640000000145052,
+      "leakage_J": 0.008738935125859671,
+      "standby_J": 0.00566097002775353,
+      "task_J": 0.02700000000000002,
+      "restart_J": 0.0018000000000000006,
+      "residual_J": 1.200281844401796e-12,
+      "source_R_Mohm": 0.7438795886113138,
+      "pref_uW": 3.011240037089428
+    },
+    {
+      "voc_V": 5.0,
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 0.0,
+      "tasks": 168,
+      "tasks_h": 28.0,
+      "max_gap_s": 128.73079880650766,
+      "source_J": 0.08639999999832812,
+      "leakage_J": 0.011424183377717462,
+      "standby_J": 0.010799999999999999,
+      "task_J": 0.021000000000000015,
+      "restart_J": 0.0,
+      "residual_J": 6.642950078905585e-14,
+      "source_R_Mohm": 1.5456451185987448,
+      "pref_uW": 3.9853909062803177
+    },
+    {
+      "voc_V": 5.0,
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 100.0,
+      "tasks": 168,
+      "tasks_h": 28.0,
+      "max_gap_s": 128.73079880650766,
+      "source_J": 0.08639999999832812,
+      "leakage_J": 0.011424183377717462,
+      "standby_J": 0.010799999999999999,
+      "task_J": 0.021000000000000015,
+      "restart_J": 0.0,
+      "residual_J": 6.642950078905585e-14,
+      "source_R_Mohm": 1.5456451185987448,
+      "pref_uW": 3.9853909062803177
+    },
+    {
+      "voc_V": 5.0,
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 0.0,
+      "tasks": 234,
+      "tasks_h": 39.0,
+      "max_gap_s": 701.3608919751132,
+      "source_J": 0.0863999999959415,
+      "leakage_J": 0.008495482253168301,
+      "standby_J": 0.005454451439286531,
+      "task_J": 0.029250000000000023,
+      "restart_J": 0.0,
+      "residual_J": 7.103449772838388e-13,
+      "source_R_Mohm": 1.531899061165311,
+      "pref_uW": 4.021152670016069
+    },
+    {
+      "voc_V": 5.0,
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 100.0,
+      "tasks": 216,
+      "tasks_h": 36.0,
+      "max_gap_s": 742.3286166809048,
+      "source_J": 0.08639999999886715,
+      "leakage_J": 0.008718412811782362,
+      "standby_J": 0.005681449045017459,
+      "task_J": 0.02700000000000002,
+      "restart_J": 0.0018000000000000006,
+      "residual_J": 5.336292822552546e-12,
+      "source_R_Mohm": 1.533361635247118,
+      "pref_uW": 4.0173171536323515
+    },
+    {
+      "voc_V": 10.0,
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 0.0,
+      "tasks": 168,
+      "tasks_h": 28.0,
+      "max_gap_s": 127.99005040055636,
+      "source_J": 0.0864000000000007,
+      "leakage_J": 0.011304301490763618,
+      "standby_J": 0.010800000000000011,
+      "task_J": 0.021000000000000015,
+      "restart_J": 0.0,
+      "residual_J": -2.1545265571631944e-15,
+      "source_R_Mohm": 4.397072298977189,
+      "pref_uW": 4.584868892123846
+    },
+    {
+      "voc_V": 10.0,
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 100.0,
+      "tasks": 168,
+      "tasks_h": 28.0,
+      "max_gap_s": 127.99005040055636,
+      "source_J": 0.0864000000000007,
+      "leakage_J": 0.011304301490763618,
+      "standby_J": 0.010800000000000011,
+      "task_J": 0.021000000000000015,
+      "restart_J": 0.0,
+      "residual_J": -2.1545265571631944e-15,
+      "source_R_Mohm": 4.397072298977189,
+      "pref_uW": 4.584868892123846
+    },
+    {
+      "voc_V": 10.0,
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 0.0,
+      "tasks": 234,
+      "tasks_h": 39.0,
+      "max_gap_s": 708.8788605291629,
+      "source_J": 0.08639999999999967,
+      "leakage_J": 0.008482763541139787,
+      "standby_J": 0.005467211281305649,
+      "task_J": 0.029250000000000023,
+      "restart_J": 0.0,
+      "residual_J": -1.8146595337498184e-13,
+      "source_R_Mohm": 4.311305008712505,
+      "pref_uW": 4.676078347335586
+    },
+    {
+      "voc_V": 10.0,
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 100.0,
+      "tasks": 216,
+      "tasks_h": 36.0,
+      "max_gap_s": 748.2003854992327,
+      "source_J": 0.08640000000003252,
+      "leakage_J": 0.008709571140581008,
+      "standby_J": 0.005690254386580584,
+      "task_J": 0.02700000000000002,
+      "restart_J": 0.0018000000000000006,
+      "residual_J": -1.0028891779534366e-13,
+      "source_R_Mohm": 4.322815916382218,
+      "pref_uW": 4.663626763193743
+    }
+  ],
+  "constant_power_gated": [
+    {
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 0,
+      "tasks_h": 15.0,
+      "max_gap_s": 237.5803126777264
+    },
+    {
+      "VH_V": 3.3,
+      "period_s": null,
+      "boot_uJ": 100,
+      "tasks_h": 15.0,
+      "max_gap_s": 237.5803126777264
+    },
+    {
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 0,
+      "tasks_h": 30.0,
+      "max_gap_s": 756.0336033616414
+    },
+    {
+      "VH_V": 3.3,
+      "period_s": 1200,
+      "boot_uJ": 100,
+      "tasks_h": 27.0,
+      "max_gap_s": 805.3584288139264
+    },
+    {
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 0,
+      "tasks_h": 28.0,
+      "max_gap_s": 128.9479858263021
+    },
+    {
+      "VH_V": 2.55,
+      "period_s": null,
+      "boot_uJ": 100,
+      "tasks_h": 28.0,
+      "max_gap_s": 128.9479858263021
+    },
+    {
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 0,
+      "tasks_h": 39.0,
+      "max_gap_s": 695.4588483416301
+    },
+    {
+      "VH_V": 2.55,
+      "period_s": 1200,
+      "boot_uJ": 100,
+      "tasks_h": 36.0,
+      "max_gap_s": 737.5039443131609
+    }
+  ],
+  "source_sensor": [
+    {
+      "voc_V": 3.6,
+      "power_at_high_uW": 4.0,
+      "case": "Typical",
+      "refill_s": null
+    },
+    {
+      "voc_V": 3.6,
+      "power_at_high_uW": 4.0,
+      "case": "Limit",
+      "refill_s": null
+    },
+    {
+      "voc_V": 3.6,
+      "power_at_high_uW": 8.0,
+      "case": "Typical",
+      "refill_s": 7.710741632008542
+    },
+    {
+      "voc_V": 3.6,
+      "power_at_high_uW": 8.0,
+      "case": "Limit",
+      "refill_s": null
+    },
+    {
+      "voc_V": 5.0,
+      "power_at_high_uW": 4.0,
+      "case": "Typical",
+      "refill_s": null
+    },
+    {
+      "voc_V": 5.0,
+      "power_at_high_uW": 4.0,
+      "case": "Limit",
+      "refill_s": null
+    },
+    {
+      "voc_V": 5.0,
+      "power_at_high_uW": 8.0,
+      "case": "Typical",
+      "refill_s": 8.763341143220632
+    },
+    {
+      "voc_V": 5.0,
+      "power_at_high_uW": 8.0,
+      "case": "Limit",
+      "refill_s": null
+    },
+    {
+      "voc_V": 10.0,
+      "power_at_high_uW": 4.0,
+      "case": "Typical",
+      "refill_s": null
+    },
+    {
+      "voc_V": 10.0,
+      "power_at_high_uW": 4.0,
+      "case": "Limit",
+      "refill_s": null
+    },
+    {
+      "voc_V": 10.0,
+      "power_at_high_uW": 8.0,
+      "case": "Typical",
+      "refill_s": 8.969003630717028
+    },
+    {
+      "voc_V": 10.0,
+      "power_at_high_uW": 8.0,
+      "case": "Limit",
+      "refill_s": null
+    }
+  ]
+}

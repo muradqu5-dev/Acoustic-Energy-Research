@@ -1,0 +1,32 @@
+[
+  {
+    "model": "Energy balance",
+    "plateau_V": 4.722446369309167,
+    "time_constant_s": 1617.9466660329865,
+    "fit_RMSE_V": 0.0674777971327297,
+    "check_RMSE_V": 0.5833956761311275,
+    "check_max_abs_error_V": 0.9214198535654181,
+    "prediction_900s_V": 3.084632288798579,
+    "parameter_at_bound": false,
+    "effective_net_power_uW": 6.891914356386656,
+    "effective_resistance_kohm": 3235.893332065973,
+    "digitization_stress_RMSE_range_V": [
+      0.4521999057202252,
+      0.7224667398840068
+    ]
+  },
+  {
+    "model": "Voltage-limited",
+    "plateau_V": 2.0501510654171127,
+    "time_constant_s": 119.09724210908126,
+    "fit_RMSE_V": 0.007421185963556539,
+    "check_RMSE_V": 0.09539287014332673,
+    "check_max_abs_error_V": 0.11556681468633645,
+    "prediction_900s_V": 2.049079823431292,
+    "parameter_at_bound": false,
+    "digitization_stress_RMSE_range_V": [
+      0.05061187014002306,
+      0.13762407112632602
+    ]
+  }
+]
